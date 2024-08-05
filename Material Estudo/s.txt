@@ -1,0 +1,7 @@
+Flags, is, is not eNone
+
+Flag(Bandeira) = Marca um local
+None = não valor
+is e is not = é ou não é (tipo valor identidade)
+id = identidade
+

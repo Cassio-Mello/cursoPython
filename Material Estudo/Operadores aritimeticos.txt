@@ -1,0 +1,15 @@
+Operadores Aritimeticos Python
+
+adicao = 10 + 10
+
+subtracao =10 -  5
+
+multiplicacao = 10 * 10
+
+divisao = 10 / 2.2 sempre resultado é um float
+
+divisao inteira = 10 // 2.2 retorna o numero inteiro
+
+exponenciacao = 2 ** 10
+
+modulo = 55 % 2 que é o resto da divisao

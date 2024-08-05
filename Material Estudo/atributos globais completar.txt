@@ -1,0 +1,7 @@
+Atributos globais
+
+Atributoss globais podem estar em todas as Tags do HTML5
+Quais sao:
+
+accesskey: Define uma tecla de atalho para focar no elemento;
+class: define quaiss classes CSS serao aplicadas no elemento
