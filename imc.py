@@ -21,13 +21,13 @@ while True:
         imc = float(valores['peso'])/ (float(valores['altura']) *  float(valores['altura']))
         janela['valorIMC'].update(int(imc))
     if imc <= 16.9:
-        janela['imcCondicao'].update('Muito abaixo do peso!')
+        janela['imcCondicao'].update('Muito abaixo do peso.')
     if imc >= 17:
-        janela['imcCondicao'].update('Abaixo do peso!')
+        janela['imcCondicao'].update('Abaixo do peso.')
     if imc >= 18.5:
-        janela['imcCondicao'].update('Peso normal!')
+        janela['imcCondicao'].update('Peso normal.')
     if imc >= 25:
-        janela['imcCondicao'].update('Acima do peso!')
+        janela['imcCondicao'].update('Acima do peso.')
     if imc >= 30:
         janela['imcCondicao'].update('Obesidade 1.')
     if imc >= 35:
