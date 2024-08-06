@@ -3,7 +3,7 @@ from PySimpleGUI import PySimpleGUI as sg
 
 
 
-sg.theme('Reddit')
+sg.theme('Dark Blue 3')
 layout = [
   [sg.Input(key='tela', size=(22,20))],
   [sg.Button('-',size=(3,3)), sg.Button('+',size=(3,3)), sg.Button('/',size=(3,3)), sg.Button('*',size=(3,3))],
@@ -91,6 +91,7 @@ while True:
     if eventos == 'Apagar':
         numero1 =''
         janela['tela'].update(numero1)
+        
     if eventos == '<--':
         tamanho = len(numero1)
         apagar = tamanho - 1

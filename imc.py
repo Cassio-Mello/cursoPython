@@ -33,8 +33,7 @@ while True:
     if imc >= 35:
         janela['imcCondicao'].update('Obesidade 2.')
     if imc > 40:
-        janela['imcCondicao'].update('Obesidade 3.')
-       
+        janela['imcCondicao'].update('Obesidade 3.')      
 
 
 
