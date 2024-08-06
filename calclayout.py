@@ -91,9 +91,11 @@ while True:
     if eventos == 'Apagar':
         numero1 =''
         janela['tela'].update(numero1)
-    # if eventos == 'Sair':
-    #     numero1 = len(numero1) -1
-    #     janela['tela'].update(numero1)       
+    if eventos == '<--':
+        tamanho = len(numero1)
+        apagar = tamanho - 1
+        numero1 = numero1[slice(apagar)]
+        janela['tela'].update(numero1)       
 
         
         
